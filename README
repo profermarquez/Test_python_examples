@@ -1,0 +1,10 @@
+# Don't works
+nosetests --with-coverage --cover-erase --cover-html-dir=E:/Programacion/Python/Test/res/ --cover-html recipe14.py
+# Works
+nosetests --with-coverage --cover-erase --cover-html-dir=C:/temp/res --cover-html recipe14.py
+
+# for doctest
+py .\recipe16.py -v
+
+#Selenium
+pip install selenium
